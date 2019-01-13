@@ -20,11 +20,10 @@ updateForm.addEventListener("submit", function(){
     event.preventDefault();
     partyId = partyCode.value;
     notes = today + ' : ' + sessionNotes.value;
-    partyCode.value = ''
+    partyCode.value = '';
     sessionNotes.value ='';
-    writeData(notes)
-    alert('Your note has been logged!')
-
+    writeData(notes);
+    alert('Your note has been logged!');
 });
 
 function writeData(notes) {
@@ -34,4 +33,4 @@ function writeData(notes) {
     });
   }
 
-let today = new Date().toLocaleDateString()
+let today = new Date().toLocaleDateString();

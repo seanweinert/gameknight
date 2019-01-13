@@ -24,7 +24,6 @@ findForm.addEventListener("submit", function(){
     getData.on('value', function(results) {
       allData = results.val();
       updateFrame.innerHTML = '';
-        console.log(allData)
       
     for (var i in allData){
       let d = document.createElement("h3"),
@@ -58,8 +57,3 @@ firebase.database().ref('party/' + partyId).push({
   sessionNotes: notes,
 });
 }
-
-
-// function divChecker(){
-//   updateFrame.innerHTML = '<h1>NEWSHIT!</h1>'
-// }

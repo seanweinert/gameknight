@@ -61,6 +61,7 @@ header {
     border-radius: 5px;
   }
   body{
+    margin:0;
     background-image: url("logo.png");
     background-size: 30em;
     max-width: 100%;
