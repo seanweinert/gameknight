@@ -7,7 +7,7 @@ The user will create a unique party ID on the 'Create Your Party' page, set the 
 
 Game Knight utilizes vanilla Javascript with a Firebase realtime database, with CSS styling. 
 
-Dungeons and Dragons is copyrighted by Wizards of the Coast. 
+Dungeons and Dragons and ampersand logo are copyrighted by Wizards of the Coast. 
 
 
 
